@@ -1,0 +1,13 @@
+.todos__form {
+    display: flex;
+    justify-content: center;
+}
+.todos__input-add {
+    width: 50%;
+    height: inherit;
+    border: 1px solid #c8c8c8;
+
+    &:focus-visible {
+        outline: 1px solid #717171;
+    }
+}
